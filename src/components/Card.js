@@ -15,7 +15,7 @@ function Card({id, name, info, image, price, removeTour}){
   return (
     <div className="card">
 
-      <img scr={require(`${image}`)} className="image_card"/>
+      <img src={image} className="image_card"/>
       
       <div className="tour-info">
         <div className="tour-details">
